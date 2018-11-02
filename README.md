@@ -8,3 +8,4 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Install 1passord extension for Chrome
 1. Install Steam (c:
 1. Remap caps lock to escape
+1. https://github.com/susam/uncap#windows-scancode-map-registry-value
