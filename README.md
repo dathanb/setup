@@ -14,6 +14,8 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Install Listary
    - Set it to appear on ctrl+shift+space
 1. Install f.lux
+1. Install AutoHotKey
+1. Turn on hyper-v in the bios if necessary
 
 # Scott Hanselman's tool list
 https://hanselman.com/tools
