@@ -20,8 +20,13 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Install 7zip
 1. Install [Kitty](http://www.9bis.net/kitty/)
    - Make `kageant.exe` start on machine startup
+1. Install [puttygen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 1. Install [cmder](http://cmder.net/http://cmder.net/) full version with git
    - Copy ssh keys to `c:\Program Files (x86)\git\.ssh` to get ssh keys working
+   - Use puttygen to convert from rsa to ppk
+   - Add id_rsa.ppk to kageant
+   - Add `GIT_SSH` env var to point at `klink.exe`
+
    
 
 # Scott Hanselman's tool list
