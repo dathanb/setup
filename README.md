@@ -17,6 +17,7 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Install AutoHotKey
 1. Turn on hyper-v in the bios if necessary
 1. Install Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+1. Install 7zip
 1. Install [cmder](http://cmder.net/http://cmder.net/) full version with git
 
 # Scott Hanselman's tool list
