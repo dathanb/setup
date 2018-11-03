@@ -19,15 +19,22 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Install Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 1. Install 7zip
 1. Install [Kitty](http://www.9bis.net/kitty/)
-   - Make `kageant.exe` start on machine startup
+   - Make `kageant.exe` start on machine startup by adding to start menu startup folder
 1. Install [puttygen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 1. Install [cmder](http://cmder.net/http://cmder.net/) full version with git
    - Copy ssh keys to `c:\Program Files (x86)\git\.ssh` to get ssh keys working
    - Use puttygen to convert from rsa to ppk
    - Add id_rsa.ppk to kageant
    - Add `GIT_SSH` env var to point at `klink.exe`
-
-   
+   - Setup Cmder to launch powershell by default
+   - Change use rprofile ("C:\Users\<username>\bin/cmder/config/user-profile.ps1") to add kitty dir to path
+1. add penumbra to hosts file
+   - c:\Windows\System32\drivers\etc\hosts
+   - 10.0.0.100
+1. Install nuget
+   - In administrator powershell instance, `Install-PackageProvider -Name NuGet`
+1. Install posh-git
+   - In administrator powershell instance, `Install-Module -Name posh-git -AllowClobber`
 
 # Scott Hanselman's tool list
 https://hanselman.com/tools
