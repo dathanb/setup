@@ -35,6 +35,7 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
    - In administrator powershell instance, `Install-PackageProvider -Name NuGet`
 1. Install posh-git
    - In administrator powershell instance, `Install-Module -Name posh-git -AllowClobber`
+1. Install LibreOffice
 
 # Scott Hanselman's tool list
 https://hanselman.com/tools
