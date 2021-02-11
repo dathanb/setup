@@ -28,7 +28,7 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
    - Add id_rsa.ppk to kageant
    - Add `GIT_SSH` env var to point at `klink.exe`
    - Setup Cmder to launch powershell by default
-   - Change use rprofile ("C:\Users\<username>\bin/cmder/config/user-profile.ps1") to add kitty dir to path
+   - Change use rprofile ("$Home\[My ]Documents\PowerShell\Profile.ps1") to add kitty dir to path
 1. add penumbra to hosts file
    - c:\Windows\System32\drivers\etc\hosts
    - 10.0.0.100
