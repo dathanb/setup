@@ -31,8 +31,10 @@ $env:path = "$env:Path;C:\Users\smidg\bin\nvm"
 $env:path = "$env:Path;C:\Program Files\ImageMagick-7.0.8-Q16"
 $env:path = "$env:Path;C:\Users\smidg\.cargo\bin"
 $env:path = "$env:Path;C:\Users\smidg\bin\gradle\bin"
+$env:path = "$env:Path;C:\Users\smidg\bin\git"
 $env:GIT_SSH = "C:\Users\smidg\bin\kitty\klink.exe"
 $env:JAVA_HOME = "C:\Program Files\Java\jdk-11.0.1"
+
 
 <#
 .Description
