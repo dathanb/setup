@@ -9,8 +9,9 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Install Steam (c:
 1. Remap caps lock to escape
    - https://github.com/susam/uncap#windows-scancode-map-registry-value
-1. ~Install Launchy~
+1. Install Launchy
    - It's not good on high-DPI displays
+   - TODO: look for a good replacement
 1. Install Listary
    - Set it to appear on ctrl+shift+space
 1. Install f.lux
