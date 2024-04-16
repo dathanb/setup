@@ -11,6 +11,7 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
    - https://github.com/susam/uncap#windows-scancode-map-registry-value
 1. Install [Script Kit](https://scriptkit.com) as a generic launcher / automation platform
 1. Install [NeoVim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
+1. Install Microsoft Power Toys
 1. Install f.lux
 1. Install AutoHotKey
 1. Turn on hyper-v in the bios if necessary
