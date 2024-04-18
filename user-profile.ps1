@@ -23,18 +23,8 @@
 
 ## <Continue to add your own>
 
-$env:path = "$env:Path;C:\Users\smidg\bin\kitty"
-$env:path = "$env:Path;c:\Users\smidg\AppData\Local\Programs\Python\Python37"
-$env:path = "$env:Path;c:\Users\smidg\AppData\Local\Programs\Python\Python37\scripts"
-$env:path = "$env:Path;C:\Users\smidg\bin\sysinternals"
-$env:path = "$env:Path;C:\Users\smidg\bin\nvm"
-$env:path = "$env:Path;C:\Program Files\ImageMagick-7.0.8-Q16"
-$env:path = "$env:Path;C:\Users\smidg\.cargo\bin"
-$env:path = "$env:Path;C:\Users\smidg\bin\gradle\bin"
-$env:path = "$env:Path;C:\Users\smidg\bin\git"
-$env:GIT_SSH = "C:\Users\smidg\bin\kitty\klink.exe"
-$env:JAVA_HOME = "C:\Program Files\Java\jdk-11.0.1"
-
+$env:path = "$env:Path;$env:USERPROFILE\bin\kitty"
+$env:path = "$env:Path;$env:USERPROFILE\bin\sysinternals"
 
 <#
 .Description
@@ -110,5 +100,11 @@ function run-asadmin
 gw is short for "./gradlew"
 #>
 function gw { ./gradlew.bat @Args }
+
+<#
+.Description
+make neovim accessible as vim
+#>
+function vim { nvim @Args }
 
 cd $Env:USERPROFILE
