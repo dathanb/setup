@@ -23,8 +23,16 @@
 
 ## <Continue to add your own>
 
-$env:path = "$env:Path;$env:USERPROFILE\bin\kitty"
+$env:path = "$env:Path;$env:USERPROFILE\bin\putty"
+$env:path = "$env:Path;$env:USERPROFILE\AppData\Local\Programs\Python\Python37"
+$env:path = "$env:Path;$env:USERPROFILE\AppData\Local\Programs\Python\Python37\scripts"
 $env:path = "$env:Path;$env:USERPROFILE\bin\sysinternals"
+$env:path = "$env:Path;$env:USERPROFILE\bin\nvm"
+$env:path = "$env:Path;$env:USERPROFILE\bin\gradle\bin"
+$env:path = "$env:Path;$env:USERPROFILE\bin\git"
+$env:GIT_SSH = "$env:USERPROFILE\bin\putty\plink.exe"
+$env:JAVA_HOME = "C:\Program Files\Java\jdk-11.0.1"
+
 
 <#
 .Description
@@ -103,8 +111,9 @@ function gw { ./gradlew.bat @Args }
 
 <#
 .Description
-make neovim accessible as vim
+Use neovim when invoking vim
 #>
 function vim { nvim @Args }
+
 
 cd $Env:USERPROFILE
