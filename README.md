@@ -17,10 +17,8 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
 1. Turn on hyper-v in the bios if necessary
 1. Install Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 1. Install 7zip
-1. Install [Kitty](http://www.9bis.net/kitty/)
-   - Make `kageant.exe` start on machine startup by adding to start menu startup folder
-1. Install [puttygen](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-1. Install [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
+1. Install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) suite
+   - Make `pageant.exe` start on machine startup by adding to start menu startup folder
 1. Install [Git for Windows](https://git-scm.com/download/win).
    - Download portable
    - Copy files to `C:\Users\smidg\bin\git`
@@ -29,9 +27,9 @@ I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup 
    - Copy ssh keys to `c:\Program Files (x86)\git\.ssh` to get ssh keys working
    - Use puttygen to convert from rsa to ppk
    - Add id_rsa.ppk to kageant
-   - Add `GIT_SSH` env var to point at `klink.exe`
+   - Add `GIT_SSH` env var to point at `link.exe`
    - Setup Cmder to launch powershell by default
-   - Change user profile ("$Home\[My ]Documents\PowerShell\Microsoft.PowerShell_profile.ps1") to add kitty dir to path
+   - Change user profile ("$Home\[My ]Documents\PowerShell\Microsoft.PowerShell_profile.ps1") to add putty dir to path
 1. add penumbra to hosts file
    - c:\Windows\System32\drivers\etc\hosts
    - 10.0.0.100
