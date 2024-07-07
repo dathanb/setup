@@ -42,9 +42,9 @@ function gs { git status }
 
 <#
 .Description
-gpu is short for "git push origin --set-upstream"
+gpu is short for "git push origin --set-upstream" master
 #>
-function gpu { git push origin --set-upstream }
+function gpu { git push origin --set-upstream master }
 
 <#
 .Description
