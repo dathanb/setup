@@ -105,6 +105,19 @@ function run-asadmin
 
 <#
 .Description
+ggr is short for "git go root"
+#>
+function ggr {
+  $dir= & git rev-parse --show-toplevel
+  if ($LastExitCode -ne 0) {
+    Write-Error "Not in a git repository"
+    return
+  }
+  cd $dir
+}
+
+<#
+.Description
 gw is short for "./gradlew"
 #>
 function gw { ./gradlew.bat @Args }
