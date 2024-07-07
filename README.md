@@ -41,12 +41,13 @@
 1. Install chrome
     - Sign into Chrome persona
 1. Install 1password
-1. Install 1passord extension for Chrome
+1. Install 1password extension for Chrome
 1. Install Steam (c:
 1. Install posh-git
    - In administrator powershell instance, `Install-Module -Name posh-git -AllowClobber`
 1. Install LibreOffice
 1. Install Obsidian
+1. Set up 1password as ssh agent
 
 # Scott Hanselman's tool list
 https://hanselman.com/tools
