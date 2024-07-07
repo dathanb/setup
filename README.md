@@ -1,7 +1,5 @@
 # Windows
 
-I just got a new Lenovo Thinkpad X1 Carbon, and it's been so long since I setup a new Windows box that I'm struggling a little to become productive again. So I'm going to document here.
-
 # Development
 
 1. Install PowerShell profile
