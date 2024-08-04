@@ -124,9 +124,37 @@ function gw { ./gradlew.bat @Args }
 
 <#
 .Description
+Remove merged branches
+#>
+function GitCleanMergedBranches {
+	git branch --merged | ?{$_ -notmatch '^\*|master|main'} | %{ git branch -d $_.Trim() }
+}
+
+<#
+.Description
+Fast-forward merge from origin and clean merged branches
+#>
+function GitFastForwardAndPrune {
+	git pull --ff-only --prune
+	GitCleanMergedBranches
+}
+
+New-Alias gffp GitFastForwardAndPrune
+
+
+<#
+.Description
 Use neovim when invoking vim
 #>
 function vim { nvim @Args }
 
+<#
+.Description
+PowerShell version of the UNIX which command
+#>
+New-Alias which Get-Command
+
 
 cd $Env:USERPROFILE
+
+
