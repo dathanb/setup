@@ -3,3 +3,4 @@
 
 #Include "WindowSwitcher.ahk"
 #Include "AppLauncher.ahk"
+#Include "Diacritics.ahk"
