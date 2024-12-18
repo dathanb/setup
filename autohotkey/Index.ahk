@@ -4,3 +4,5 @@
 #Include "WindowSwitcher.ahk"
 #Include "AppLauncher.ahk"
 #Include "Diacritics.ahk"
+#Include "Chrome.ahk"
+#Include "Obsidian.ahk"

@@ -9,7 +9,7 @@ emitDiacritic(code) {
     Send("{U+" . code . "}")
 }
 
-
+#HotIf
 RAlt & ':: {
     global DiacriticInProgress
     DiacriticInProgress := 1
@@ -45,5 +45,9 @@ RAlt & ':: {
 }
 :c*:u:: {
     emitDiacritic("00FA")
+}
+::*:: {
+    global DiacriticInProgress
+    DiacriticInProgress := 0
 }
 #HotIf
